@@ -1,0 +1,186 @@
+.header {
+  width: 70%;
+}
+
+.banner-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  width: 70%;
+}
+
+.about {
+  width: 70%;
+  margin-bottom: 140px;
+}
+
+.about .right {
+  width: 50%;
+}
+
+.about .left img {
+  width: 350px;
+  height: 400px;
+}
+
+.projects .left {
+  width: 400px;
+  height: 200px;
+}
+
+.projects .left .what-do {
+  font-size: 35px;
+}
+
+.projects .left .freelance-text {
+  font-size: 20px;
+}
+
+.contact {
+  width: 70%;
+}
+
+@media (max-width: 1130px) {
+  .header {
+    width: 90%;
+  }
+  .banner {
+    width: 90%;
+    animation: fade 2s ease forwards;
+  }
+  .about {
+    width: 90%;
+  }
+  .projects {
+    width: 90%;
+  }
+  .contact {
+    width: 90%;
+  }
+}
+
+@media (max-width: 875px) {
+  .header {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .banner-container {
+    height: auto;
+    margin-top: 150px;
+  }
+  .banner {
+    width: 100%;
+    flex-direction: column;
+  }
+  .banner .left {
+    padding: 0px 20px;
+    width: 100%;
+  }
+  .banner .left .text {
+    text-align: center;
+    width: 100%;
+  }
+  .banner .left .buttons {
+    width: auto;
+  }
+  .banner .left .icons {
+    width: auto;
+  }
+  .banner .img-container {
+    width: 100%;
+  }
+  .banner img {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+  }
+  .about {
+    margin: 100px 0px;
+    margin-bottom: 140px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .about .left img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .about .right {
+    width: 100%;
+  }
+  .about .right .text {
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .about .right .services {
+    width: auto;
+    margin: 0 auto;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact .left {
+    width: 100%;
+  }
+  .contact .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 916px) {
+  .projects {
+    width: 100%;
+  }
+  .projects .left {
+    width: 200px;
+    height: auto;
+  }
+  .projects .left .what-do {
+    font-size: 20px;
+  }
+  .projects .left .freelance-text {
+    font-size: 16px;
+  }
+  .projects img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner-container {
+    margin-top: 110px;
+  }
+  .about {
+    margin-bottom: 50px;
+  }
+  .projects {
+    padding-bottom: 0px;
+  }
+  .contact {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .projects .left {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+  .projects .left .what-do {
+    font-size: 25px;
+  }
+  .projects .left .freelance-text {
+    font-size: 16px;
+  }
+  .projects img {
+    width: 100%;
+  }
+  .contact {
+    gap: 20px;
+  }
+  .contact .lets-work {
+    font-size: 25px;
+  }
+}
